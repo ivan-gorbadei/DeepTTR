@@ -1,0 +1,49 @@
+phase = 9
+name = "The championship"
+about = """
+Against the two bots and the ends of phases 5, 6 and 7 at once. Within a table a network's share of
+the games follows (1 - w)^2, where w is the share of games the network that starts the phase wins
+against it, measured before the start in 120 games a table. So the network meets most the opponents
+it loses to. The bots take half a percent of the games each, and the reward keeps the bonuses for
+points and tickets.
+"""
+
+[train]
+critic = true
+td = true
+bonus = true
+hand_penalty = true
+
+# the networks' total share of a worker's games at each table, shared out by the places
+[places]
+totals = { 2 = 0.1419, 3 = 0.2121, 4 = 0.2829, 5 = 0.3540 }
+from = "measured"
+
+[[league]]
+name = "ticket builder"
+player = "heuristic"
+shares = { 2 = 0.005, 3 = 0.005, 4 = 0.005, 5 = 0.005 }
+
+[[league]]
+name = "card hoarder"
+player = "hoard"
+shares = { 2 = 0.005, 3 = 0.005, 4 = 0.005, 5 = 0.005 }
+
+[[league]]
+name = "phase 5"
+player = "phase 5"
+shares = "places"
+
+[[league]]
+name = "phase 6"
+player = "phase 6"
+shares = "places"
+
+[[league]]
+name = "phase 7"
+player = "phase 7"
+shares = "places"
+
+[end]
+rule = "steps"
+steps = 502_512

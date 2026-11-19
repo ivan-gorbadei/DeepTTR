@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 428" width="760" height="428" role="img" aria-label="Against phase 5: first places by table">
+<style>
+text { font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+.grid, .axis { stroke-width: 1; }
+.ref { stroke-width: 1; stroke-dasharray: 4 3; }
+.line { fill: none; stroke-linejoin: round; stroke-linecap: round; }
+.raw { fill: none; stroke-width: 1.2; opacity: 0.28; }
+.band { opacity: 0.16; }
+.ring { stroke-width: 1.5; }
+.bg { fill: #fcfcfb; stroke: #e1e0d9; }
+.grid { stroke: #e1e0d9; }
+.axis { stroke: #c3c2b7; }
+.pb { fill: #f2f1ec; }
+.ref { stroke: #898781; }
+.t { fill: #0b0b0b; }
+.s { fill: #52514e; }
+.m { fill: #898781; }
+.ring { stroke: #fcfcfb; }
+.kink { stroke: #0b0b0b; }
+.fink { fill: #0b0b0b; }
+.k0 { stroke: #2a78d6; } .f0 { fill: #2a78d6; }
+.k1 { stroke: #eb6834; } .f1 { fill: #eb6834; }
+.k2 { stroke: #1baf7a; } .f2 { fill: #1baf7a; }
+.k3 { stroke: #eda100; } .f3 { fill: #eda100; }
+.k4 { stroke: #e87ba4; } .f4 { fill: #e87ba4; }
+.k5 { stroke: #008300; } .f5 { fill: #008300; }
+.k6 { stroke: #6250d6; } .f6 { fill: #6250d6; }
+.k7 { stroke: #e34948; } .f7 { fill: #e34948; }
+@media (prefers-color-scheme: dark) {
+.bg { fill: #1a1a19; stroke: #2c2c2a; }
+.grid { stroke: #2c2c2a; }
+.axis { stroke: #383835; }
+.pb { fill: #222221; }
+.ref { stroke: #898781; }
+.t { fill: #f0efec; }
+.s { fill: #c3c2b7; }
+.m { fill: #898781; }
+.ring { stroke: #1a1a19; }
+.kink { stroke: #f0efec; }
+.fink { fill: #f0efec; }
+.k0 { stroke: #3987e5; } .f0 { fill: #3987e5; }
+.k1 { stroke: #d95926; } .f1 { fill: #d95926; }
+.k2 { stroke: #199e70; } .f2 { fill: #199e70; }
+.k3 { stroke: #c98500; } .f3 { fill: #c98500; }
+.k4 { stroke: #d55181; } .f4 { fill: #d55181; }
+.k5 { stroke: #0ca30c; } .f5 { fill: #0ca30c; }
+.k6 { stroke: #9085e9; } .f6 { fill: #9085e9; }
+.k7 { stroke: #e66767; } .f7 { fill: #e66767; }
+}
+</style>
+<rect x="0.5" y="0.5" width="759" height="427" rx="10" class="bg"/>
+<text x="24" y="34" class="t" font-size="15" font-weight="600">Against phase 5: first places by table</text>
+<text x="24" y="56" class="s" font-size="12">The share of the training games against phase 5 the network finished first at each table size, a point every 100 games or</text>
+<text x="24" y="72" class="s" font-size="12">more, and the mean of the tables; the dots are the measured matches (about 400 games a table, the network moving as it</text>
+<text x="24" y="88" class="s" font-size="12">trains) with their 95 % interval.</text>
+<line x1="24" y1="108" x2="40" y2="108" class="k0" stroke-width="2.5"/>
+<text x="46" y="112" class="s" font-size="12">table of 2</text>
+<line x1="121.84" y1="108" x2="137.84" y2="108" class="k1" stroke-width="2.5"/>
+<text x="143.84" y="112" class="s" font-size="12">table of 3</text>
+<line x1="219.68" y1="108" x2="235.68" y2="108" class="k2" stroke-width="2.5"/>
+<text x="241.68" y="112" class="s" font-size="12">table of 4</text>
+<line x1="317.52" y1="108" x2="333.52" y2="108" class="k3" stroke-width="2.5"/>
+<text x="339.52" y="112" class="s" font-size="12">table of 5</text>
+<line x1="415.36" y1="108" x2="431.36" y2="108" class="kink" stroke-width="2.5"/>
+<text x="437.36" y="112" class="s" font-size="12">mean of the tables, training</text>
+<circle cx="32" cy="126" r="4" class="f4"/>
+<text x="46" y="130" class="s" font-size="12">mean of the tables, measured</text>
+<line x1="46.9" y1="380.0" x2="736.0" y2="380.0" class="grid"/>
+<text x="38.9" y="384.0" class="m" font-size="11.5" text-anchor="end">10</text>
+<line x1="46.9" y1="341.7" x2="736.0" y2="341.7" class="grid"/>
+<text x="38.9" y="345.7" class="m" font-size="11.5" text-anchor="end">20</text>
+<line x1="46.9" y1="303.3" x2="736.0" y2="303.3" class="grid"/>
+<text x="38.9" y="307.3" class="m" font-size="11.5" text-anchor="end">30</text>
+<line x1="46.9" y1="265.0" x2="736.0" y2="265.0" class="grid"/>
+<text x="38.9" y="269.0" class="m" font-size="11.5" text-anchor="end">40</text>
+<line x1="46.9" y1="226.7" x2="736.0" y2="226.7" class="grid"/>
+<text x="38.9" y="230.7" class="m" font-size="11.5" text-anchor="end">50</text>
+<line x1="46.9" y1="188.3" x2="736.0" y2="188.3" class="grid"/>
+<text x="38.9" y="192.3" class="m" font-size="11.5" text-anchor="end">60</text>
+<line x1="46.9" y1="150.0" x2="736.0" y2="150.0" class="grid"/>
+<text x="38.9" y="154.0" class="m" font-size="11.5" text-anchor="end">70</text>
+<line x1="46.9" y1="380" x2="736.0" y2="380" class="axis"/>
+<text x="46.9" y="398" class="m" font-size="11.5" text-anchor="middle">0</text>
+<text x="188.9" y="398" class="m" font-size="11.5" text-anchor="middle">50k</text>
+<text x="330.9" y="398" class="m" font-size="11.5" text-anchor="middle">100k</text>
+<text x="472.8" y="398" class="m" font-size="11.5" text-anchor="middle">150k</text>
+<text x="614.8" y="398" class="m" font-size="11.5" text-anchor="middle">200k</text>
+<text x="391.4" y="418" class="m" font-size="11.5" text-anchor="middle">training games</text>
+<clipPath id="plot"><rect x="46.9" y="148" width="689.1" height="234"/></clipPath>
+<g clip-path="url(#plot)">
+<line x1="736.0" y1="150" x2="736.0" y2="380" class="ref"/>
+<line x1="46.9" y1="295.3" x2="736.0" y2="295.3" class="ref"/>
+<path d="M54.7 194.1 L67.0 214.4 L81.7 207.5 L96.3 221.3 L110.8 209.0 L127.4 217.1 L144.2 214.8 L161.0 206.3 L171.9 214.4 L185.8 205.2 L202.1 190.6 L214.5 211.7 L230.2 213.2 L241.0 233.6 L256.5 197.1 L271.9 212.1 L286.5 205.6 L301.9 204.0 L314.4 206.7 L327.2 197.5 L342.8 205.6 L362.2 216.7 L372.9 209.4 L391.0 198.7 L407.6 204.8 L421.3 204.4 L437.0 198.7 L449.5 190.6 L464.0 207.5 L482.9 210.6 L496.3 196.0 L510.9 186.0 L528.9 193.3 L543.0 193.7 L556.4 192.9 L570.1 212.1 L584.7 204.0 L599.3 183.3 L616.9 194.5 L630.8 167.2 L647.4 192.6 L665.0 186.4 L679.2 173.4 L692.1 195.2 L709.5 189.9 L722.5 181.8 L736.0 186.0" class="raw k0"/>
+<path d="M54.7 194.1 L67.0 206.8 L81.7 207.1 L96.3 213.7 L110.8 211.6 L127.4 213.9 L144.2 214.3 L161.0 211.1 L171.9 212.4 L185.8 209.5 L202.1 201.9 L214.5 205.9 L230.2 208.8 L241.0 218.7 L256.5 210.1 L271.9 210.9 L286.5 208.8 L301.9 206.9 L314.4 206.8 L327.2 203.1 L342.8 204.1 L362.2 209.1 L372.9 209.2 L391.0 205.0 L407.6 204.9 L421.3 204.7 L437.0 202.3 L449.5 197.6 L464.0 201.6 L482.9 205.2 L496.3 201.5 L510.9 195.3 L528.9 194.5 L543.0 194.2 L556.4 193.7 L570.1 201.1 L584.7 202.3 L599.3 194.7 L616.9 194.6 L630.8 183.7 L647.4 187.2 L665.0 186.9 L679.2 181.5 L692.1 187.0 L709.5 188.1 L722.5 185.6 L736.0 185.8" class="line k0" stroke-width="2"/>
+<path d="M54.7 295.7 L67.0 276.5 L81.7 290.7 L96.3 300.6 L110.8 279.9 L127.4 290.7 L144.2 270.0 L161.0 286.9 L171.9 283.0 L185.8 261.9 L202.1 274.2 L214.5 290.7 L230.2 279.6 L241.0 294.1 L256.5 269.6 L271.9 260.8 L286.5 270.4 L301.9 256.9 L314.4 288.0 L327.2 290.7 L342.8 275.0 L362.2 274.2 L372.9 261.9 L391.0 273.1 L407.6 268.1 L421.3 275.7 L437.0 271.5 L449.5 253.5 L464.0 259.2 L482.9 263.1 L496.3 263.1 L510.9 265.8 L528.9 266.5 L543.0 279.6 L556.4 266.1 L570.1 279.6 L584.7 283.8 L599.3 257.3 L616.9 273.4 L630.8 263.1 L647.4 255.4 L665.0 252.0 L679.2 260.8 L692.1 247.4 L709.5 256.2 L722.5 256.2 L736.0 262.3" class="raw k1"/>
+<path d="M54.7 295.7 L67.0 283.7 L81.7 287.3 L96.3 293.4 L110.8 287.6 L127.4 288.9 L144.2 281.1 L161.0 283.4 L171.9 283.3 L185.8 274.7 L202.1 274.5 L214.5 281.0 L230.2 280.4 L241.0 285.9 L256.5 279.4 L271.9 271.9 L286.5 271.3 L301.9 265.6 L314.4 274.5 L327.2 281.0 L342.8 278.6 L362.2 276.8 L372.9 270.9 L391.0 271.7 L407.6 270.3 L421.3 272.5 L437.0 272.1 L449.5 264.6 L464.0 262.5 L482.9 262.7 L496.3 262.9 L510.9 264.0 L528.9 265.0 L543.0 270.8 L556.4 269.0 L570.1 273.2 L584.7 277.4 L599.3 269.4 L616.9 271.0 L630.8 267.8 L647.4 262.9 L665.0 258.5 L679.2 259.4 L692.1 254.6 L709.5 255.2 L722.5 255.6 L736.0 258.3" class="line k1" stroke-width="2"/>
+<path d="M67.0 330.2 L81.7 320.2 L96.3 314.1 L110.8 320.2 L127.4 314.8 L144.2 314.1 L161.0 317.1 L171.9 317.5 L185.8 306.0 L202.1 309.5 L214.5 309.1 L230.2 321.4 L241.0 311.8 L256.5 306.8 L271.9 320.2 L286.5 305.6 L301.9 321.4 L314.4 308.3 L327.2 322.5 L342.8 309.5 L362.2 316.4 L372.9 290.7 L391.0 309.5 L407.6 314.1 L421.3 312.5 L437.0 310.6 L449.5 294.1 L464.0 278.0 L482.9 307.2 L496.3 302.6 L510.9 309.5 L528.9 294.5 L543.0 311.8 L556.4 286.9 L570.1 292.2 L584.7 308.3 L599.3 283.4 L616.9 310.2 L630.8 310.6 L647.4 294.1 L665.0 294.9 L679.2 289.5 L692.1 278.8 L709.5 295.3 L722.5 293.0 L736.0 295.3" class="raw k2"/>
+<path d="M67.0 330.2 L81.7 323.9 L96.3 318.9 L110.8 319.5 L127.4 317.5 L144.2 316.0 L161.0 316.5 L171.9 316.9 L185.8 312.5 L202.1 311.3 L214.5 310.4 L230.2 314.8 L241.0 313.6 L256.5 310.9 L271.9 314.6 L286.5 311.0 L301.9 315.1 L314.4 312.4 L327.2 316.4 L342.8 313.7 L362.2 314.7 L372.9 305.1 L391.0 306.9 L407.6 309.7 L421.3 310.9 L437.0 310.8 L449.5 304.1 L464.0 293.7 L482.9 299.1 L496.3 300.5 L510.9 304.1 L528.9 300.2 L543.0 304.9 L556.4 297.7 L570.1 295.5 L584.7 300.6 L599.3 293.7 L616.9 300.3 L630.8 304.4 L647.4 300.3 L665.0 298.2 L679.2 294.7 L692.1 288.3 L709.5 291.1 L722.5 291.9 L736.0 293.2" class="line k2" stroke-width="2"/>
+<path d="M67.0 344.0 L81.7 335.9 L96.3 330.2 L110.8 346.3 L127.4 342.8 L144.2 350.9 L161.0 349.7 L171.9 331.3 L185.8 353.2 L202.1 349.7 L214.5 329.0 L230.2 344.0 L256.5 339.0 L271.9 348.6 L286.5 330.2 L301.9 341.7 L314.4 325.6 L327.2 333.6 L342.8 335.9 L362.2 333.6 L372.9 332.5 L391.0 329.4 L407.6 344.0 L421.3 333.6 L437.0 324.4 L449.5 342.8 L464.0 323.3 L482.9 324.4 L496.3 321.0 L510.9 334.8 L528.9 324.8 L543.0 305.6 L556.4 326.7 L570.1 328.2 L584.7 329.0 L599.3 335.9 L616.9 337.1 L630.8 302.9 L647.4 316.0 L665.0 318.3 L679.2 319.8 L692.1 326.7 L709.5 327.9 L722.5 331.3 L736.0 318.3" class="raw k3"/>
+<path d="M67.0 344.0 L81.7 338.9 L96.3 334.5 L110.8 339.9 L127.4 341.2 L144.2 345.2 L161.0 347.1 L171.9 340.7 L185.8 345.7 L202.1 347.3 L214.5 340.0 L230.2 341.6 L256.5 340.5 L271.9 343.8 L286.5 338.3 L301.9 339.7 L314.4 334.0 L327.2 333.9 L342.8 334.7 L362.2 334.3 L372.9 333.5 L391.0 331.9 L407.6 336.7 L421.3 335.5 L437.0 331.1 L449.5 335.8 L464.0 330.8 L482.9 328.2 L496.3 325.3 L510.9 329.1 L528.9 327.4 L543.0 318.7 L556.4 321.9 L570.1 324.4 L584.7 326.3 L599.3 330.1 L616.9 332.9 L630.8 320.9 L647.4 318.9 L665.0 318.7 L679.2 319.1 L692.1 322.2 L709.5 324.4 L722.5 327.2 L736.0 323.6" class="line k3" stroke-width="2"/>
+<path d="M67.0 291.1 L81.7 288.6 L96.3 291.5 L110.8 288.9 L127.4 291.4 L144.2 287.4 L161.0 290.0 L171.9 286.6 L185.8 281.6 L202.1 281.0 L214.5 285.1 L230.2 289.5 L256.5 286.4 L271.9 285.4 L286.5 277.9 L301.9 281.0 L314.4 282.2 L327.2 286.1 L342.8 281.5 L362.2 285.2 L372.9 273.6 L391.0 277.6 L407.6 282.7 L421.3 281.6 L437.0 276.3 L449.5 270.3 L464.0 267.0 L482.9 276.3 L496.3 270.7 L510.9 274.0 L528.9 269.8 L543.0 272.7 L556.4 268.2 L570.1 278.0 L584.7 281.3 L599.3 265.0 L616.9 278.8 L630.8 261.0 L647.4 264.5 L665.0 262.9 L679.2 260.9 L692.1 262.0 L709.5 267.3 L722.5 265.6 L736.0 265.5" class="raw kink"/>
+<path d="M67.0 291.1 L81.7 289.5 L96.3 290.6 L110.8 289.8 L127.4 290.5 L144.2 289.2 L161.0 289.5 L171.9 288.3 L185.8 285.6 L202.1 283.7 L214.5 284.3 L230.2 286.4 L256.5 286.4 L271.9 286.0 L286.5 282.8 L301.9 282.1 L314.4 282.1 L327.2 283.7 L342.8 282.8 L362.2 283.8 L372.9 279.7 L391.0 278.9 L407.6 280.4 L421.3 280.9 L437.0 279.1 L449.5 275.5 L464.0 272.1 L482.9 273.8 L496.3 272.5 L510.9 273.1 L528.9 271.8 L543.0 272.1 L556.4 270.6 L570.1 273.5 L584.7 276.6 L599.3 272.0 L616.9 274.7 L630.8 269.2 L647.4 267.3 L665.0 265.6 L679.2 263.7 L692.1 263.0 L709.5 264.7 L722.5 265.1 L736.0 265.2" class="line kink" stroke-width="3"/>
+<path d="M46.9 311.2 L91.9 299.1 L139.6 302.1 L183.7 301.7 L225.4 294.2 L262.4 300.0 L304.4 298.1 L351.3 294.2 L395.9 288.4 L441.4 289.3 L478.4 291.1 L525.5 278.6 L567.4 281.1 L613.1 276.1 L659.7 283.7 L694.7 282.9 L694.7 300.1 L659.7 300.8 L613.1 293.5 L567.4 298.1 L525.5 295.8 L478.4 307.7 L441.4 306.2 L395.9 305.2 L351.3 310.8 L304.4 314.5 L262.4 316.5 L225.4 310.9 L183.7 318.2 L139.6 318.3 L91.9 315.5 L46.9 326.9 Z" class="band f4"/>
+<path d="M46.9 319.0 L91.9 307.3 L139.6 310.2 L183.7 310.0 L225.4 302.5 L262.4 308.3 L304.4 306.3 L351.3 302.5 L395.9 296.8 L441.4 297.8 L478.4 299.4 L525.5 287.2 L567.4 289.6 L613.1 284.8 L659.7 292.2 L694.7 291.5" class="line k4" stroke-width="1.5" opacity="0.65"/>
+<circle cx="46.9" cy="319.0" r="4" class="f4 ring"/>
+<circle cx="91.9" cy="307.3" r="4" class="f4 ring"/>
+<circle cx="139.6" cy="310.2" r="4" class="f4 ring"/>
+<circle cx="183.7" cy="310.0" r="4" class="f4 ring"/>
+<circle cx="225.4" cy="302.5" r="4" class="f4 ring"/>
+<circle cx="262.4" cy="308.3" r="4" class="f4 ring"/>
+<circle cx="304.4" cy="306.3" r="4" class="f4 ring"/>
+<circle cx="351.3" cy="302.5" r="4" class="f4 ring"/>
+<circle cx="395.9" cy="296.8" r="4" class="f4 ring"/>
+<circle cx="441.4" cy="297.8" r="4" class="f4 ring"/>
+<circle cx="478.4" cy="299.4" r="4" class="f4 ring"/>
+<circle cx="525.5" cy="287.2" r="4" class="f4 ring"/>
+<circle cx="567.4" cy="289.6" r="4" class="f4 ring"/>
+<circle cx="613.1" cy="284.8" r="4" class="f4 ring"/>
+<circle cx="659.7" cy="292.2" r="4" class="f4 ring"/>
+<circle cx="694.7" cy="291.5" r="4" class="f4 ring"/>
+</g>
+<text x="732.0" y="290.3" class="s" font-size="11" text-anchor="end">an even player, mean</text>
+<text x="736.0" y="145" class="m" font-size="11" text-anchor="end">end</text>
+</svg>

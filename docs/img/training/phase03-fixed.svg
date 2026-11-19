@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 394" width="760" height="394" role="img" aria-label="Ticket points on fixed deals">
+<style>
+text { font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+.grid, .axis { stroke-width: 1; }
+.ref { stroke-width: 1; stroke-dasharray: 4 3; }
+.line { fill: none; stroke-linejoin: round; stroke-linecap: round; }
+.raw { fill: none; stroke-width: 1.2; opacity: 0.28; }
+.band { opacity: 0.16; }
+.ring { stroke-width: 1.5; }
+.bg { fill: #fcfcfb; stroke: #e1e0d9; }
+.grid { stroke: #e1e0d9; }
+.axis { stroke: #c3c2b7; }
+.pb { fill: #f2f1ec; }
+.ref { stroke: #898781; }
+.t { fill: #0b0b0b; }
+.s { fill: #52514e; }
+.m { fill: #898781; }
+.ring { stroke: #fcfcfb; }
+.kink { stroke: #0b0b0b; }
+.fink { fill: #0b0b0b; }
+.k0 { stroke: #2a78d6; } .f0 { fill: #2a78d6; }
+.k1 { stroke: #eb6834; } .f1 { fill: #eb6834; }
+.k2 { stroke: #1baf7a; } .f2 { fill: #1baf7a; }
+.k3 { stroke: #eda100; } .f3 { fill: #eda100; }
+.k4 { stroke: #e87ba4; } .f4 { fill: #e87ba4; }
+.k5 { stroke: #008300; } .f5 { fill: #008300; }
+.k6 { stroke: #6250d6; } .f6 { fill: #6250d6; }
+.k7 { stroke: #e34948; } .f7 { fill: #e34948; }
+@media (prefers-color-scheme: dark) {
+.bg { fill: #1a1a19; stroke: #2c2c2a; }
+.grid { stroke: #2c2c2a; }
+.axis { stroke: #383835; }
+.pb { fill: #222221; }
+.ref { stroke: #898781; }
+.t { fill: #f0efec; }
+.s { fill: #c3c2b7; }
+.m { fill: #898781; }
+.ring { stroke: #1a1a19; }
+.kink { stroke: #f0efec; }
+.fink { fill: #f0efec; }
+.k0 { stroke: #3987e5; } .f0 { fill: #3987e5; }
+.k1 { stroke: #d95926; } .f1 { fill: #d95926; }
+.k2 { stroke: #199e70; } .f2 { fill: #199e70; }
+.k3 { stroke: #c98500; } .f3 { fill: #c98500; }
+.k4 { stroke: #d55181; } .f4 { fill: #d55181; }
+.k5 { stroke: #0ca30c; } .f5 { fill: #0ca30c; }
+.k6 { stroke: #9085e9; } .f6 { fill: #9085e9; }
+.k7 { stroke: #e66767; } .f7 { fill: #e66767; }
+}
+</style>
+<rect x="0.5" y="0.5" width="759" height="393" rx="10" class="bg"/>
+<text x="24" y="34" class="t" font-size="15" font-weight="600">Ticket points on fixed deals</text>
+<text x="24" y="56" class="s" font-size="12">Every snapshot plays the same 1,024 deals of two players in both seats, only tickets scoring and a failed ticket costing</text>
+<text x="24" y="72" class="s" font-size="12">its points: the ticket points a seat. The training games of two for comparison.</text>
+<circle cx="32" cy="92" r="4" class="f0"/>
+<text x="46" y="96" class="s" font-size="12">first choice</text>
+<circle cx="143.28000000000003" cy="92" r="4" class="f1"/>
+<text x="157.28000000000003" y="96" class="s" font-size="12">sampled, as in training</text>
+<line x1="304.88000000000005" y1="92" x2="320.88000000000005" y2="92" class="k2" stroke-width="2.5"/>
+<text x="326.88000000000005" y="96" class="s" font-size="12">training games of two</text>
+<line x1="46.9" y1="346.0" x2="568.1" y2="346.0" class="grid"/>
+<text x="38.9" y="350.0" class="m" font-size="11.5" text-anchor="end">30</text>
+<line x1="46.9" y1="300.0" x2="568.1" y2="300.0" class="grid"/>
+<text x="38.9" y="304.0" class="m" font-size="11.5" text-anchor="end">40</text>
+<line x1="46.9" y1="254.0" x2="568.1" y2="254.0" class="grid"/>
+<text x="38.9" y="258.0" class="m" font-size="11.5" text-anchor="end">50</text>
+<line x1="46.9" y1="208.0" x2="568.1" y2="208.0" class="grid"/>
+<text x="38.9" y="212.0" class="m" font-size="11.5" text-anchor="end">60</text>
+<line x1="46.9" y1="162.0" x2="568.1" y2="162.0" class="grid"/>
+<text x="38.9" y="166.0" class="m" font-size="11.5" text-anchor="end">70</text>
+<line x1="46.9" y1="116.0" x2="568.1" y2="116.0" class="grid"/>
+<text x="38.9" y="120.0" class="m" font-size="11.5" text-anchor="end">80</text>
+<line x1="46.9" y1="346" x2="568.1" y2="346" class="axis"/>
+<text x="46.9" y="364" class="m" font-size="11.5" text-anchor="middle">0</text>
+<text x="159.5" y="364" class="m" font-size="11.5" text-anchor="middle">50k</text>
+<text x="272.2" y="364" class="m" font-size="11.5" text-anchor="middle">100k</text>
+<text x="384.8" y="364" class="m" font-size="11.5" text-anchor="middle">150k</text>
+<text x="497.5" y="364" class="m" font-size="11.5" text-anchor="middle">200k</text>
+<text x="307.5" y="384" class="m" font-size="11.5" text-anchor="middle">training games</text>
+<clipPath id="plot"><rect x="46.9" y="114" width="521.2" height="234"/></clipPath>
+<g clip-path="url(#plot)">
+<line x1="568.1" y1="116" x2="568.1" y2="346" class="ref"/>
+<path d="M46.9 156.7 L109.8 150.7 L144.0 148.4 L192.7 155.2 L237.0 143.4 L297.6 145.7 L330.0 187.0 L381.7 176.4 L421.8 146.6 L468.0 157.4 L515.3 140.3" class="line k0" stroke-width="1.5" opacity="0.65"/>
+<circle cx="46.9" cy="156.7" r="4" class="f0 ring"/>
+<circle cx="109.8" cy="150.7" r="4" class="f0 ring"/>
+<circle cx="144.0" cy="148.4" r="4" class="f0 ring"/>
+<circle cx="192.7" cy="155.2" r="4" class="f0 ring"/>
+<circle cx="237.0" cy="143.4" r="4" class="f0 ring"/>
+<circle cx="297.6" cy="145.7" r="4" class="f0 ring"/>
+<circle cx="330.0" cy="187.0" r="4" class="f0 ring"/>
+<circle cx="381.7" cy="176.4" r="4" class="f0 ring"/>
+<circle cx="421.8" cy="146.6" r="4" class="f0 ring"/>
+<circle cx="468.0" cy="157.4" r="4" class="f0 ring"/>
+<circle cx="515.3" cy="140.3" r="4" class="f0 ring"/>
+<path d="M46.9 310.3 L109.8 183.9 L144.0 169.5 L192.7 156.5 L237.0 159.0 L297.6 154.6 L330.0 153.7 L381.7 140.7 L421.8 152.1 L468.0 158.0 L515.3 148.8" class="line k1" stroke-width="1.5" opacity="0.65"/>
+<circle cx="46.9" cy="310.3" r="4" class="f1 ring"/>
+<circle cx="109.8" cy="183.9" r="4" class="f1 ring"/>
+<circle cx="144.0" cy="169.5" r="4" class="f1 ring"/>
+<circle cx="192.7" cy="156.5" r="4" class="f1 ring"/>
+<circle cx="237.0" cy="159.0" r="4" class="f1 ring"/>
+<circle cx="297.6" cy="154.6" r="4" class="f1 ring"/>
+<circle cx="330.0" cy="153.7" r="4" class="f1 ring"/>
+<circle cx="381.7" cy="140.7" r="4" class="f1 ring"/>
+<circle cx="421.8" cy="152.1" r="4" class="f1 ring"/>
+<circle cx="468.0" cy="158.0" r="4" class="f1 ring"/>
+<circle cx="515.3" cy="148.8" r="4" class="f1 ring"/>
+<path d="M67.9 285.4 L89.7 237.3 L109.9 206.7 L130.2 193.6 L149.7 171.3 L158.8 159.9 L179.1 166.5 L199.0 162.8 L219.2 147.1 L230.5 151.4 L250.6 145.3 L271.2 147.6 L291.6 154.2 L310.8 149.2 L329.2 142.2 L349.4 149.3 L362.9 148.2 L382.8 147.5 L402.8 151.7 L409.3 147.4 L428.8 149.7 L449.2 147.5 L458.8 152.2 L479.4 152.0 L500.1 154.6 L520.3 149.4 L539.8 154.0 L559.2 149.1 L568.1 150.8" class="raw k2"/>
+<path d="M67.9 285.4 L89.7 255.3 L109.9 230.5 L130.2 213.5 L149.7 195.2 L158.8 180.4 L179.1 174.7 L199.0 169.8 L219.2 160.7 L230.5 157.0 L250.6 152.3 L271.2 150.4 L291.6 151.9 L310.8 150.8 L329.2 147.4 L349.4 148.1 L362.9 148.2 L382.8 147.9 L402.8 149.4 L409.3 148.6 L428.8 149.0 L449.2 148.4 L458.8 149.9 L479.4 150.8 L500.1 152.3 L520.3 151.2 L539.8 152.3 L559.2 151.0 L568.1 150.9" class="line k2" stroke-width="2"/>
+</g>
+<text x="568.1" y="111" class="m" font-size="11" text-anchor="end">end</text>
+<line x1="574.1" y1="140.3" x2="584.1" y2="140.3" class="k0" stroke-width="2.5"/>
+<text x="588.1" y="144.3" class="s" font-size="11.5"><tspan class="t" font-weight="600">74.7</tspan> first choice</text>
+<line x1="574.1" y1="155.3" x2="584.1" y2="155.3" class="k1" stroke-width="2.5"/>
+<text x="588.1" y="159.3" class="s" font-size="11.5"><tspan class="t" font-weight="600">72.9</tspan> sampled, as in training</text>
+<line x1="574.1" y1="170.3" x2="584.1" y2="170.3" class="k2" stroke-width="2.5"/>
+<text x="588.1" y="174.3" class="s" font-size="11.5"><tspan class="t" font-weight="600">72.4</tspan> training games of two</text>
+</svg>

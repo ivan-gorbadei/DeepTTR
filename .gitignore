@@ -1,0 +1,22 @@
+# builds
+engine/target/
+python/deepttr/_engine.*
+build/
+dist/
+*.egg-info/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# checkpoints, training runs and recorded games stay out of the repository; the published network is
+# the exception
+*.pt
+*.pth
+*.safetensors
+!python/deepttr/weights/*.pt
+games/
+runs/

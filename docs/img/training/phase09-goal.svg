@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 386" width="760" height="386" role="img" aria-label="The phase&#x27;s goal: first places">
+<style>
+text { font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+.grid, .axis { stroke-width: 1; }
+.ref { stroke-width: 1; stroke-dasharray: 4 3; }
+.line { fill: none; stroke-linejoin: round; stroke-linecap: round; }
+.raw { fill: none; stroke-width: 1.2; opacity: 0.28; }
+.band { opacity: 0.16; }
+.ring { stroke-width: 1.5; }
+.bg { fill: #fcfcfb; stroke: #e1e0d9; }
+.grid { stroke: #e1e0d9; }
+.axis { stroke: #c3c2b7; }
+.pb { fill: #f2f1ec; }
+.ref { stroke: #898781; }
+.t { fill: #0b0b0b; }
+.s { fill: #52514e; }
+.m { fill: #898781; }
+.ring { stroke: #fcfcfb; }
+.kink { stroke: #0b0b0b; }
+.fink { fill: #0b0b0b; }
+.k0 { stroke: #2a78d6; } .f0 { fill: #2a78d6; }
+.k1 { stroke: #eb6834; } .f1 { fill: #eb6834; }
+.k2 { stroke: #1baf7a; } .f2 { fill: #1baf7a; }
+.k3 { stroke: #eda100; } .f3 { fill: #eda100; }
+.k4 { stroke: #e87ba4; } .f4 { fill: #e87ba4; }
+.k5 { stroke: #008300; } .f5 { fill: #008300; }
+.k6 { stroke: #6250d6; } .f6 { fill: #6250d6; }
+.k7 { stroke: #e34948; } .f7 { fill: #e34948; }
+@media (prefers-color-scheme: dark) {
+.bg { fill: #1a1a19; stroke: #2c2c2a; }
+.grid { stroke: #2c2c2a; }
+.axis { stroke: #383835; }
+.pb { fill: #222221; }
+.ref { stroke: #898781; }
+.t { fill: #f0efec; }
+.s { fill: #c3c2b7; }
+.m { fill: #898781; }
+.ring { stroke: #1a1a19; }
+.kink { stroke: #f0efec; }
+.fink { fill: #f0efec; }
+.k0 { stroke: #3987e5; } .f0 { fill: #3987e5; }
+.k1 { stroke: #d95926; } .f1 { fill: #d95926; }
+.k2 { stroke: #199e70; } .f2 { fill: #199e70; }
+.k3 { stroke: #c98500; } .f3 { fill: #c98500; }
+.k4 { stroke: #d55181; } .f4 { fill: #d55181; }
+.k5 { stroke: #0ca30c; } .f5 { fill: #0ca30c; }
+.k6 { stroke: #9085e9; } .f6 { fill: #9085e9; }
+.k7 { stroke: #e66767; } .f7 { fill: #e66767; }
+}
+</style>
+<rect x="0.5" y="0.5" width="759" height="385" rx="10" class="bg"/>
+<text x="24" y="34" class="t" font-size="15" font-weight="600">The phase&#x27;s goal: first places</text>
+<text x="24" y="56" class="s" font-size="12">The share of games the network finished first, the mean over its 11 opponents and the tables of 2, 3, 4, 5: matches at</text>
+<text x="24" y="72" class="s" font-size="12">every measured snapshot, about 400 games a table, the network moving as it trains (a sample of its policy); band: 95 %</text>
+<text x="24" y="88" class="s" font-size="12">interval.</text>
+<line x1="46.9" y1="338.0" x2="682.4" y2="338.0" class="grid"/>
+<text x="38.9" y="342.0" class="m" font-size="11.5" text-anchor="end">30</text>
+<line x1="46.9" y1="280.5" x2="682.4" y2="280.5" class="grid"/>
+<text x="38.9" y="284.5" class="m" font-size="11.5" text-anchor="end">40</text>
+<line x1="46.9" y1="223.0" x2="682.4" y2="223.0" class="grid"/>
+<text x="38.9" y="227.0" class="m" font-size="11.5" text-anchor="end">50</text>
+<line x1="46.9" y1="165.5" x2="682.4" y2="165.5" class="grid"/>
+<text x="38.9" y="169.5" class="m" font-size="11.5" text-anchor="end">60</text>
+<line x1="46.9" y1="108.0" x2="682.4" y2="108.0" class="grid"/>
+<text x="38.9" y="112.0" class="m" font-size="11.5" text-anchor="end">70</text>
+<line x1="46.9" y1="338" x2="682.4" y2="338" class="axis"/>
+<text x="46.9" y="356" class="m" font-size="11.5" text-anchor="middle">0</text>
+<text x="199.4" y="356" class="m" font-size="11.5" text-anchor="middle">1M</text>
+<text x="351.9" y="356" class="m" font-size="11.5" text-anchor="middle">2M</text>
+<text x="504.4" y="356" class="m" font-size="11.5" text-anchor="middle">3M</text>
+<text x="656.9" y="356" class="m" font-size="11.5" text-anchor="middle">4M</text>
+<text x="364.7" y="376" class="m" font-size="11.5" text-anchor="middle">training games</text>
+<clipPath id="plot"><rect x="46.9" y="106" width="635.6" height="234"/></clipPath>
+<g clip-path="url(#plot)">
+<line x1="682.4" y1="108" x2="682.4" y2="338" class="ref"/>
+<line x1="46.9" y1="326.0" x2="682.4" y2="326.0" class="ref"/>
+<path d="M46.9 225.8 L52.2 225.4 L67.8 217.6 L72.0 218.5 L85.0 213.8 L92.6 217.4 L106.1 211.7 L110.5 212.7 L123.3 214.7 L144.1 207.5 L148.8 201.4 L161.4 200.3 L182.5 198.1 L187.0 200.6 L199.6 198.6 L224.9 191.4 L237.7 190.4 L258.8 185.2 L263.2 189.3 L275.9 185.2 L301.3 179.0 L314.2 184.5 L339.5 180.5 L453.6 179.5 L491.7 177.7 L542.3 174.4 L580.1 171.6 L605.5 166.2 L605.5 173.8 L580.1 179.2 L542.3 182.0 L491.7 185.3 L453.6 187.0 L339.5 188.0 L314.2 192.1 L301.3 186.5 L275.9 192.7 L263.2 196.8 L258.8 192.7 L237.7 197.9 L224.9 199.0 L199.6 206.2 L187.0 208.1 L182.5 205.6 L161.4 207.7 L148.8 208.9 L144.1 214.9 L123.3 222.2 L110.5 220.2 L106.1 219.1 L92.6 224.9 L85.0 221.3 L72.0 226.0 L67.8 225.0 L52.2 232.8 L46.9 233.2 Z" class="band f0"/>
+<path d="M46.9 229.5 L52.2 229.1 L67.8 221.3 L72.0 222.2 L85.0 217.5 L92.6 221.2 L106.1 215.4 L110.5 216.4 L123.3 218.4 L144.1 211.2 L148.8 205.1 L161.4 204.0 L182.5 201.8 L187.0 204.3 L199.6 202.4 L224.9 195.2 L237.7 194.2 L258.8 189.0 L263.2 193.1 L275.9 188.9 L301.3 182.7 L314.2 188.3 L339.5 184.2 L453.6 183.3 L491.7 181.5 L542.3 178.2 L580.1 175.4 L605.5 170.0" class="line k0" stroke-width="1.5" opacity="0.65"/>
+<circle cx="46.9" cy="229.5" r="4" class="f0 ring"/>
+<circle cx="52.2" cy="229.1" r="4" class="f0 ring"/>
+<circle cx="67.8" cy="221.3" r="4" class="f0 ring"/>
+<circle cx="72.0" cy="222.2" r="4" class="f0 ring"/>
+<circle cx="85.0" cy="217.5" r="4" class="f0 ring"/>
+<circle cx="92.6" cy="221.2" r="4" class="f0 ring"/>
+<circle cx="106.1" cy="215.4" r="4" class="f0 ring"/>
+<circle cx="110.5" cy="216.4" r="4" class="f0 ring"/>
+<circle cx="123.3" cy="218.4" r="4" class="f0 ring"/>
+<circle cx="144.1" cy="211.2" r="4" class="f0 ring"/>
+<circle cx="148.8" cy="205.1" r="4" class="f0 ring"/>
+<circle cx="161.4" cy="204.0" r="4" class="f0 ring"/>
+<circle cx="182.5" cy="201.8" r="4" class="f0 ring"/>
+<circle cx="187.0" cy="204.3" r="4" class="f0 ring"/>
+<circle cx="199.6" cy="202.4" r="4" class="f0 ring"/>
+<circle cx="224.9" cy="195.2" r="4" class="f0 ring"/>
+<circle cx="237.7" cy="194.2" r="4" class="f0 ring"/>
+<circle cx="258.8" cy="189.0" r="4" class="f0 ring"/>
+<circle cx="263.2" cy="193.1" r="4" class="f0 ring"/>
+<circle cx="275.9" cy="188.9" r="4" class="f0 ring"/>
+<circle cx="301.3" cy="182.7" r="4" class="f0 ring"/>
+<circle cx="314.2" cy="188.3" r="4" class="f0 ring"/>
+<circle cx="339.5" cy="184.2" r="4" class="f0 ring"/>
+<circle cx="453.6" cy="183.3" r="4" class="f0 ring"/>
+<circle cx="491.7" cy="181.5" r="4" class="f0 ring"/>
+<circle cx="542.3" cy="178.2" r="4" class="f0 ring"/>
+<circle cx="580.1" cy="175.4" r="4" class="f0 ring"/>
+<circle cx="605.5" cy="170.0" r="4" class="f0 ring"/>
+</g>
+<text x="678.4" y="321.0" class="s" font-size="11" text-anchor="end">an even player</text>
+<text x="682.4" y="103" class="m" font-size="11" text-anchor="end">end</text>
+<line x1="688.4" y1="170.0" x2="698.4" y2="170.0" class="k0" stroke-width="2.5"/>
+<text x="702.4" y="174.0" class="s" font-size="11.5"><tspan class="t" font-weight="600">59.2 %</tspan></text>
+</svg>

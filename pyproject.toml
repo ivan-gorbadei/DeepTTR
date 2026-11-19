@@ -1,0 +1,35 @@
+[build-system]
+requires = ["maturin>=1.5,<2"]
+build-backend = "maturin"
+
+[project]
+name = "deepttr"
+version = "0.1.0"
+description = "A neural network that plays Ticket to Ride (USA map): rules engine, network and its training, matches, ratings, a play server"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+authors = [{ name = "Ivan Gorbadei" }]
+dependencies = ["numpy>=1.26", "torch>=2.2"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Rust",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Games/Entertainment :: Board Games",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.urls]
+Repository = "https://github.com/ivan-gorbadei/DeepTTR"
+
+[tool.maturin]
+manifest-path = "engine/python/Cargo.toml"
+python-source = "python"
+module-name = "deepttr._engine"
+features = ["pyo3/extension-module"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

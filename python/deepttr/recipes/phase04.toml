@@ -1,0 +1,22 @@
+phase = 4
+name = "The full scoring"
+about = """
+Routes and the longest trail score again, and a failed ticket costs its points. The price of a
+route is the share of its points a claim scores. It starts at nothing and rises by a fifth every
+5,750 steps, so that claiming routes becomes worth its points while the network keeps building its
+tickets. The phase ends at the step the price is whole.
+"""
+
+[train]
+method = "imitate"
+rules = { route_price = 0.0 }
+games = 1024
+window = 200_000
+ratio = 1
+lr = 2e-4
+save_every = 200
+price_step = 0.2
+price_steps = 5_750
+
+[end]
+rule = "full_price"

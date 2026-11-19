@@ -1,0 +1,18 @@
+[package]
+name = "deepttr-engine"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "deepttr._engine: the DeepTTR rules engine as a Python module (pyo3)"
+
+[lib]
+name = "_engine"
+crate-type = ["cdylib"]
+
+[dependencies]
+deepttr-core = { path = "../core" }
+pyo3 = { version = "0.30", features = ["abi3-py311"] }
+numpy = "0.30"
+rayon = "1"
+serde_json = "1"

@@ -1,0 +1,31 @@
+phase = 2
+name = "One network of routes for all tickets; which tickets to keep"
+about = """
+The teacher now plans one set of routes through the cities of all the open tickets, so that a route
+several tickets share pays for each of them, and a failed ticket costs its points. Every choice of
+tickets stops its game: the opening keep, a later keep, and drawing tickets when nothing is left to
+build. Each of its options is played out in 32 copies of the game, the hidden cards dealt afresh and
+the rest played by the network's first choice, and the option whose tickets score most on average
+is the lesson. While something is left to build, drawing tickets is tried the same way against the
+teacher's best building move, up to three times a game.
+"""
+
+[train]
+method = "teacher"
+ticket_playouts = true
+rules = { route_points = false, longest_bonus = false }
+tables = [2]
+games = 512
+outcome_heads = "global"
+window = 1_000_000
+ratio = 1
+lr = 2e-4
+trail_weight = 0.0
+save_every = 200
+
+[end]
+rule = "steps"
+steps = 38_994
+
+[measure]
+tickets = ["first"]

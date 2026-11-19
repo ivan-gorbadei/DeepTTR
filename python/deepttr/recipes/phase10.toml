@@ -1,0 +1,56 @@
+phase = 10
+name = "Seeing further"
+about = """
+The championship with the end of phase 9 added, the places set by the last hour of phase 9's own
+training games, and a look-ahead teacher in a share of the games. It plays out every choice of
+tickets and a tenth of the other decisions at a table of two, fewer at the larger tables. The
+network's first choice and up to three other options are each played to the end in eight worlds,
+the hidden cards dealt afresh and every seat moving by samples of the policy. An option that comes
+out ahead is played again with the first choice in 24 fresh worlds, and becomes a lesson only if it
+is still ahead by three points and by two standard errors.
+"""
+
+[train]
+critic = true
+td = true
+bonus = true
+hand_penalty = true
+lookahead = true
+
+[places]
+totals = { 2 = 0.1319, 3 = 0.2021, 4 = 0.2729, 5 = 0.3440 }
+from = "training"
+
+[[league]]
+name = "ticket builder"
+player = "heuristic"
+shares = { 2 = 0.005, 3 = 0.005, 4 = 0.005, 5 = 0.005 }
+
+[[league]]
+name = "card hoarder"
+player = "hoard"
+shares = { 2 = 0.005, 3 = 0.005, 4 = 0.005, 5 = 0.005 }
+
+[[league]]
+name = "phase 5"
+player = "phase 5"
+shares = "places"
+
+[[league]]
+name = "phase 6"
+player = "phase 6"
+shares = "places"
+
+[[league]]
+name = "phase 7"
+player = "phase 7"
+shares = "places"
+
+[[league]]
+name = "phase 9"
+player = "phase 9"
+shares = "places"
+
+[end]
+rule = "steps"
+steps = 31_883

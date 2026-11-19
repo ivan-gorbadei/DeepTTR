@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "DeepTTR: a neural network that plays Ticket to Ride"
+type: software
+authors:
+  - family-names: Gorbadei
+    given-names: Ivan
+repository-code: "https://github.com/ivan-gorbadei/DeepTTR"
+license: MIT
+version: 0.1.0
+date-released: 2026-11-18

@@ -1,0 +1,26 @@
+phase = 3
+name = "Every table size"
+about = """
+No teacher from here on. The network plays itself at tables of two to five players, each size as
+often, and learns from the moves of its own games, each weighted by how far its player's final
+score stands above the average at that table size; a player below the average teaches nothing.
+Only tickets score.
+"""
+
+[train]
+method = "imitate"
+rules = { route_points = false, longest_bonus = false }
+games = 1024
+outcome_heads = "global"
+window = 200_000
+ratio = 1
+lr = 2e-4
+trail_weight = 0.0
+save_every = 200
+
+[end]
+rule = "steps"
+steps = 57_177
+
+[measure]
+tickets = ["first", "sample"]

@@ -1,0 +1,12 @@
+[package]
+name = "deepttr-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Ticket to Ride (USA map) rules engine: state, legal moves, scoring, observations, baseline bots, matches, self-play for training"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rayon = "1"

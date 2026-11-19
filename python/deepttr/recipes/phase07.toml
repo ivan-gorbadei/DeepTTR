@@ -1,0 +1,30 @@
+phase = 7
+name = "Beating its ancestors"
+about = """
+Against the ends of phases 4, 5 and 6 in equal shares at each table, and no bots. The frozen
+networks play their first choice.
+"""
+
+[train]
+critic = true
+td = true
+hand_penalty = true
+
+[[league]]
+name = "phase 6"
+player = "phase 6"
+shares = { 2 = 0.0473, 3 = 0.0707, 4 = 0.0943, 5 = 0.1180 }
+
+[[league]]
+name = "phase 5"
+player = "phase 5"
+shares = { 2 = 0.0473, 3 = 0.0707, 4 = 0.0943, 5 = 0.1180 }
+
+[[league]]
+name = "phase 4"
+player = "phase 4"
+shares = { 2 = 0.0473, 3 = 0.0707, 4 = 0.0943, 5 = 0.1180 }
+
+[end]
+rule = "steps"
+steps = 39_989

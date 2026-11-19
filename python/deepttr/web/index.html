@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DeepTTR</title>
+<link rel="stylesheet" href="/web/style.css">
+</head>
+<body>
+<div id="stage">
+  <svg id="board" preserveAspectRatio="xMidYMid meet" aria-label="the board"></svg>
+</div>
+
+<nav id="toolbar">
+  <button id="btn-new" class="round" title="A new game" aria-label="A new game">&#8634;</button>
+  <button id="btn-log" class="round" title="The moves so far" aria-label="The moves so far">&#9776;</button>
+  <button id="btn-sound" class="round" title="Sound on" aria-label="Sound" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M4 9.5v5h3.6l4.4 4v-13l-4.4 4z" fill="currentColor"/>
+    <path class="wave" d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path class="mute" d="M15.5 9.5l5 5m0-5l-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+</nav>
+<ol id="feed" aria-live="polite"></ol>
+
+<aside id="players"></aside>
+<section id="mine"></section>
+
+<button id="tdeck" class="pile" disabled></button>
+<aside id="market"></aside>
+<button id="deck" class="pile" disabled></button>
+
+<div id="hand"></div>
+<div id="status" role="status"></div>
+<div id="banner" class="hidden"></div>
+
+<section id="offer" class="panel hidden" aria-label="Tickets to keep"></section>
+<section id="mytickets" class="panel hidden" aria-label="Your tickets"></section>
+<div id="claim" class="panel hidden"></div>
+<section id="log" class="panel hidden" aria-label="The moves so far"><h3>Moves</h3><ol></ol></section>
+<div id="fx" aria-hidden="true"></div>
+
+<section id="lobby" class="overlay hidden">
+  <div class="sheet">
+    <h1>DeepTTR</h1>
+    <p class="lead">Ticket to Ride on the map of the USA, against the network. It sees what a player in
+    its seat would see, and nothing else.</p>
+    <label class="field">Your name <input id="name" maxlength="40" placeholder="Guest"></label>
+    <div class="field">Players at the table
+      <div id="seats" class="choice" role="radiogroup">
+        <button data-players="2" class="on">2</button><button data-players="3">3</button>
+        <button data-players="4">4</button><button data-players="5">5</button>
+      </div>
+      <span id="seats-note" class="note"></span>
+    </div>
+    <label class="field">Your seat
+      <select id="seat"></select>
+    </label>
+    <label class="consent hidden" id="consentrow"><input type="checkbox" id="consent"> I agree that this game, its
+    moves, the result and the name I give, is recorded to measure the network's strength.</label>
+    <button id="go" class="primary">Start</button>
+    <p class="fine">An unofficial research project, not affiliated with or endorsed by the publisher of
+    Ticket to Ride. The board, the cards and the pieces are drawn for this project.</p>
+  </div>
+</section>
+
+<section id="result" class="overlay hidden"><div class="sheet wide"></div></section>
+<script src="/web/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+# A phase of the network's training (deepttr.curriculum). [train]: the settings of the phase that
+# differ from TrainConfig's defaults (deepttr/train/config.py); [[league]]: its opponents; [end]:
+# when it ends.
+phase = 1
+name = "Completing a ticket"
+about = """
+Two players, and only tickets score: a ticket left unfinished scores the share of its shortest path
+that is built. The network imitates a scripted teacher that values each move by what it adds to the
+path of one of its tickets; at the opening any two of the three tickets are a right choice.
+"""
+
+[train]
+method = "teacher"
+rules = { route_points = false, longest_bonus = false, partial_tickets = true }
+tables = [2]
+games = 2048
+outcome_heads = "global"
+window = 1_000_000
+ratio = 1
+lr = 2e-4
+trail_weight = 0.0
+save_every = 200
+
+[end]
+rule = "built"
+share = 0.975
+most_games = 1_500_000

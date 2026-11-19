@@ -1,0 +1,58 @@
+phase = 11
+name = "Real tables"
+about = """
+At tables of three to five every other seat is drawn from the league by its places, and the card
+hoarder sits at one seat in half of the games and at none in the others. The look-ahead teacher
+plays against the league too and checks a choice of tickets in 96 worlds. A move forecast, trained
+on the look-ahead's playouts, sends a move it rates ten points above the first choice straight to
+the check. The league is phase 10's, its places set by the last hour of phase 10's training games.
+"""
+
+[train]
+critic = true
+td = true
+bonus = true
+hand_penalty = true
+lookahead = true
+look_league = true
+mixed_tables = true
+keep_check = 96
+move_forecast = true
+
+[places]
+totals = { 2 = 0.1319, 3 = 0.2021, 4 = 0.2729, 5 = 0.3440 }
+from = "training"
+
+[[league]]
+name = "ticket builder"
+player = "heuristic"
+shares = { 2 = 0.005, 3 = 0.005, 4 = 0.005, 5 = 0.005 }
+
+[[league]]
+name = "card hoarder"
+player = "hoard"
+shares = { 2 = 0.005, 3 = 0.005, 4 = 0.005, 5 = 0.005 }
+
+[[league]]
+name = "phase 5"
+player = "phase 5"
+shares = "places"
+
+[[league]]
+name = "phase 6"
+player = "phase 6"
+shares = "places"
+
+[[league]]
+name = "phase 7"
+player = "phase 7"
+shares = "places"
+
+[[league]]
+name = "phase 9"
+player = "phase 9"
+shares = "places"
+
+[end]
+rule = "steps"
+steps = 97_894

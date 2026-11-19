@@ -1,0 +1,33 @@
+phase = 8
+name = "Scoring high"
+about = """
+Against the ends of phases 5, 6 and 7, with a bonus in the reward for the network's own points up
+to 160 and for its completed tickets up to five, ten points a ticket; both are brought in over the
+first steps of the phase.
+"""
+
+[train]
+critic = true
+td = true
+bonus = true
+bonus_ramp = true
+hand_penalty = true
+
+[[league]]
+name = "phase 7"
+player = "phase 7"
+shares = { 2 = 0.0473, 3 = 0.0707, 4 = 0.0943, 5 = 0.1180 }
+
+[[league]]
+name = "phase 6"
+player = "phase 6"
+shares = { 2 = 0.0473, 3 = 0.0707, 4 = 0.0943, 5 = 0.1180 }
+
+[[league]]
+name = "phase 5"
+player = "phase 5"
+shares = { 2 = 0.0473, 3 = 0.0707, 4 = 0.0943, 5 = 0.1180 }
+
+[end]
+rule = "steps"
+steps = 89_577

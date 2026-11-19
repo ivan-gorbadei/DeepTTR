@@ -1,0 +1,34 @@
+phase = 5
+name = "Beating the scripted bots"
+about = """
+Proximal policy optimization with a learned critic, at tables of two to five, against the ticket
+builder, the card hoarder and the network of phase 4. Every deal is played once with the network in
+each seat and the opponent in all the others, so the luck of the deal cancels. A move's reward is
+its seat's margin over the strongest other seat, less the table's mean margin; and a turn that ends
+with more than fourteen train cards in hand costs its first move five points for every card above
+fourteen, thirty at most. The phase ends when its win share against the three stops rising.
+"""
+
+[train]
+critic = true
+hand_penalty = true
+
+[[league]]
+name = "card hoarder"
+player = "hoard"
+shares = { 2 = 0.0151, 3 = 0.0148, 4 = 0.0141, 5 = 0.0146 }
+
+[[league]]
+name = "ticket builder"
+player = "heuristic"
+shares = { 2 = 0.0161, 3 = 0.0154, 4 = 0.0152, 5 = 0.0146 }
+
+[[league]]
+name = "phase 4"
+player = "phase 4"
+shares = { 2 = 0.0628, 3 = 0.1384, 4 = 0.2530, 5 = 0.4161 }
+
+[end]
+rule = "plateau"
+n = 4
+gain = 1.0

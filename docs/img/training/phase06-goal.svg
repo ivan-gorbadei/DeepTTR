@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 386" width="760" height="386" role="img" aria-label="The phase&#x27;s goal: first places">
+<style>
+text { font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+.grid, .axis { stroke-width: 1; }
+.ref { stroke-width: 1; stroke-dasharray: 4 3; }
+.line { fill: none; stroke-linejoin: round; stroke-linecap: round; }
+.raw { fill: none; stroke-width: 1.2; opacity: 0.28; }
+.band { opacity: 0.16; }
+.ring { stroke-width: 1.5; }
+.bg { fill: #fcfcfb; stroke: #e1e0d9; }
+.grid { stroke: #e1e0d9; }
+.axis { stroke: #c3c2b7; }
+.pb { fill: #f2f1ec; }
+.ref { stroke: #898781; }
+.t { fill: #0b0b0b; }
+.s { fill: #52514e; }
+.m { fill: #898781; }
+.ring { stroke: #fcfcfb; }
+.kink { stroke: #0b0b0b; }
+.fink { fill: #0b0b0b; }
+.k0 { stroke: #2a78d6; } .f0 { fill: #2a78d6; }
+.k1 { stroke: #eb6834; } .f1 { fill: #eb6834; }
+.k2 { stroke: #1baf7a; } .f2 { fill: #1baf7a; }
+.k3 { stroke: #eda100; } .f3 { fill: #eda100; }
+.k4 { stroke: #e87ba4; } .f4 { fill: #e87ba4; }
+.k5 { stroke: #008300; } .f5 { fill: #008300; }
+.k6 { stroke: #6250d6; } .f6 { fill: #6250d6; }
+.k7 { stroke: #e34948; } .f7 { fill: #e34948; }
+@media (prefers-color-scheme: dark) {
+.bg { fill: #1a1a19; stroke: #2c2c2a; }
+.grid { stroke: #2c2c2a; }
+.axis { stroke: #383835; }
+.pb { fill: #222221; }
+.ref { stroke: #898781; }
+.t { fill: #f0efec; }
+.s { fill: #c3c2b7; }
+.m { fill: #898781; }
+.ring { stroke: #1a1a19; }
+.kink { stroke: #f0efec; }
+.fink { fill: #f0efec; }
+.k0 { stroke: #3987e5; } .f0 { fill: #3987e5; }
+.k1 { stroke: #d95926; } .f1 { fill: #d95926; }
+.k2 { stroke: #199e70; } .f2 { fill: #199e70; }
+.k3 { stroke: #c98500; } .f3 { fill: #c98500; }
+.k4 { stroke: #d55181; } .f4 { fill: #d55181; }
+.k5 { stroke: #0ca30c; } .f5 { fill: #0ca30c; }
+.k6 { stroke: #9085e9; } .f6 { fill: #9085e9; }
+.k7 { stroke: #e66767; } .f7 { fill: #e66767; }
+}
+</style>
+<rect x="0.5" y="0.5" width="759" height="385" rx="10" class="bg"/>
+<text x="24" y="34" class="t" font-size="15" font-weight="600">The phase&#x27;s goal: first places</text>
+<text x="24" y="56" class="s" font-size="12">The share of games the network finished first, the mean over its 3 opponents and the tables of 2, 3, 4, 5: matches at</text>
+<text x="24" y="72" class="s" font-size="12">every measured snapshot, about 400 games a table, the network moving as it trains (a sample of its policy); band: 95 %</text>
+<text x="24" y="88" class="s" font-size="12">interval.</text>
+<line x1="46.9" y1="338.0" x2="682.4" y2="338.0" class="grid"/>
+<text x="38.9" y="342.0" class="m" font-size="11.5" text-anchor="end">30</text>
+<line x1="46.9" y1="299.7" x2="682.4" y2="299.7" class="grid"/>
+<text x="38.9" y="303.7" class="m" font-size="11.5" text-anchor="end">35</text>
+<line x1="46.9" y1="261.3" x2="682.4" y2="261.3" class="grid"/>
+<text x="38.9" y="265.3" class="m" font-size="11.5" text-anchor="end">40</text>
+<line x1="46.9" y1="223.0" x2="682.4" y2="223.0" class="grid"/>
+<text x="38.9" y="227.0" class="m" font-size="11.5" text-anchor="end">45</text>
+<line x1="46.9" y1="184.7" x2="682.4" y2="184.7" class="grid"/>
+<text x="38.9" y="188.7" class="m" font-size="11.5" text-anchor="end">50</text>
+<line x1="46.9" y1="146.3" x2="682.4" y2="146.3" class="grid"/>
+<text x="38.9" y="150.3" class="m" font-size="11.5" text-anchor="end">55</text>
+<line x1="46.9" y1="108.0" x2="682.4" y2="108.0" class="grid"/>
+<text x="38.9" y="112.0" class="m" font-size="11.5" text-anchor="end">60</text>
+<line x1="46.9" y1="338" x2="682.4" y2="338" class="axis"/>
+<text x="46.9" y="356" class="m" font-size="11.5" text-anchor="middle">0</text>
+<text x="177.8" y="356" class="m" font-size="11.5" text-anchor="middle">50k</text>
+<text x="308.8" y="356" class="m" font-size="11.5" text-anchor="middle">100k</text>
+<text x="439.7" y="356" class="m" font-size="11.5" text-anchor="middle">150k</text>
+<text x="570.7" y="356" class="m" font-size="11.5" text-anchor="middle">200k</text>
+<text x="364.7" y="376" class="m" font-size="11.5" text-anchor="middle">training games</text>
+<clipPath id="plot"><rect x="46.9" y="106" width="635.6" height="234"/></clipPath>
+<g clip-path="url(#plot)">
+<line x1="682.4" y1="108" x2="682.4" y2="338" class="ref"/>
+<line x1="46.9" y1="322.0" x2="682.4" y2="322.0" class="ref"/>
+<path d="M46.9 215.8 L88.4 196.8 L132.4 200.9 L173.1 199.4 L211.5 188.2 L245.7 199.4 L284.4 185.9 L327.7 188.7 L368.8 176.1 L410.8 168.1 L444.9 175.5 L488.3 152.3 L527.0 172.1 L569.1 151.0 L612.0 161.2 L644.3 160.2 L644.3 179.9 L612.0 181.0 L569.1 170.9 L527.0 192.1 L488.3 172.1 L444.9 195.2 L410.8 187.9 L368.8 195.9 L327.7 208.5 L284.4 205.5 L245.7 219.1 L211.5 208.0 L173.1 219.2 L132.4 220.8 L88.4 216.6 L46.9 235.5 Z" class="band f0"/>
+<path d="M46.9 225.7 L88.4 206.7 L132.4 210.9 L173.1 209.3 L211.5 198.1 L245.7 209.3 L284.4 195.7 L327.7 198.6 L368.8 186.0 L410.8 178.0 L444.9 185.3 L488.3 162.2 L527.0 182.1 L569.1 160.9 L612.0 171.1 L644.3 170.0" class="line k0" stroke-width="1.5" opacity="0.65"/>
+<circle cx="46.9" cy="225.7" r="4" class="f0 ring"/>
+<circle cx="88.4" cy="206.7" r="4" class="f0 ring"/>
+<circle cx="132.4" cy="210.9" r="4" class="f0 ring"/>
+<circle cx="173.1" cy="209.3" r="4" class="f0 ring"/>
+<circle cx="211.5" cy="198.1" r="4" class="f0 ring"/>
+<circle cx="245.7" cy="209.3" r="4" class="f0 ring"/>
+<circle cx="284.4" cy="195.7" r="4" class="f0 ring"/>
+<circle cx="327.7" cy="198.6" r="4" class="f0 ring"/>
+<circle cx="368.8" cy="186.0" r="4" class="f0 ring"/>
+<circle cx="410.8" cy="178.0" r="4" class="f0 ring"/>
+<circle cx="444.9" cy="185.3" r="4" class="f0 ring"/>
+<circle cx="488.3" cy="162.2" r="4" class="f0 ring"/>
+<circle cx="527.0" cy="182.1" r="4" class="f0 ring"/>
+<circle cx="569.1" cy="160.9" r="4" class="f0 ring"/>
+<circle cx="612.0" cy="171.1" r="4" class="f0 ring"/>
+<circle cx="644.3" cy="170.0" r="4" class="f0 ring"/>
+</g>
+<text x="678.4" y="317.0" class="s" font-size="11" text-anchor="end">an even player</text>
+<text x="682.4" y="103" class="m" font-size="11" text-anchor="end">end</text>
+<line x1="688.4" y1="170.0" x2="698.4" y2="170.0" class="k0" stroke-width="2.5"/>
+<text x="702.4" y="174.0" class="s" font-size="11.5"><tspan class="t" font-weight="600">51.9 %</tspan></text>
+</svg>

@@ -1,0 +1,33 @@
+phase = 6
+name = "Beating its ancestors"
+about = """
+Against the card hoarder and the ends of phases 4 and 5. The critic's targets are now TD(lambda)
+returns, lambda 0.995, over its own forecasts of the positions after each move, so the positions of
+one game no longer share one target. The phase ends when its win share against the three stops
+rising.
+"""
+
+[train]
+critic = true
+td = true
+hand_penalty = true
+
+[[league]]
+name = "card hoarder"
+player = "hoard"
+shares = { 2 = 0.0083, 3 = 0.0080, 4 = 0.0084, 5 = 0.0080 }
+
+[[league]]
+name = "phase 5"
+player = "phase 5"
+shares = { 2 = 0.0358, 3 = 0.0796, 4 = 0.1415, 5 = 0.2219 }
+
+[[league]]
+name = "phase 4"
+player = "phase 4"
+shares = { 2 = 0.0358, 3 = 0.0796, 4 = 0.1415, 5 = 0.2219 }
+
+[end]
+rule = "plateau"
+n = 4
+gain = 1.0
